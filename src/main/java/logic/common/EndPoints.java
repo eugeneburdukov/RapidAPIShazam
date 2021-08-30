@@ -6,7 +6,8 @@ package logic.common;
 //@AllArgsConstructor(access = AccessLevel.PRIVATE)
 public enum EndPoints {
 
-    GET_SHAZAM("https://shazam.p.rapidapi.com/search");
+    GET_SHAZAM("https://shazam.p.rapidapi.com/search"),
+    POST_SHAZAM("https://shazam.p.rapidapi.com/songs/detect");
 
     private String URI;
 
